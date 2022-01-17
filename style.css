@@ -1,0 +1,11 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=DM+Serif+Display:ital@0;1&family=Poppins:wght@500&display=swap');
+
+
+ /* common styles */
+body{
+    font-family: 'Carter One', cursive;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
