@@ -10,6 +10,12 @@ body{
     background: #dbcccc;
     width: 100%;
 }
+.main-part{
+     
+    justify-content: center;
+    width: 90%;
+    margin: 0% 5%;
+}
 
 /* Head menu styles */
 
@@ -57,6 +63,7 @@ nav li a{
     display: flex;
     margin-top: 180px;
     margin-left: 120px;
+    
 }
 .half-width{
     width: 582px;
@@ -280,6 +287,7 @@ nav li a{
 .footer-part i{
     margin-right: 10px;
 }
+ 
 
 
 
