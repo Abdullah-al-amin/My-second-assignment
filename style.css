@@ -8,8 +8,11 @@ body{
     font-family: 'DM Serif Display', serif;
     font-family: 'Poppins', sans-serif;
     background: #dbcccc;
+    width: 100%;
 }
+
 /* Head menu styles */
+
 nav> ul {
     display: flex;
      font-size: 25px;
@@ -19,7 +22,9 @@ nav> ul {
     top: 95px;
     margin-left: 80px;
 }
+
 /* menus part and icons styles */
+
 .part-1{
     display: flex;
     align-items: center;
@@ -79,7 +84,9 @@ nav li a{
     margin-left: 200px;
     
 }
+
 /* link-button styles */
+
 .link{
     width: 196px;
     height: 44px;
@@ -120,7 +127,7 @@ nav li a{
 
 /* Collection syles */
 .container{
-    position: absolute;
+    position: relative;
     width: 1047px;
     height: 1662px;
     left: 196px;
@@ -142,8 +149,8 @@ nav li a{
 
 
 .Collections{
-    /* width: 329px;
-    height: 476px; */
+    width: 300px;
+    height: 476px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
@@ -187,4 +194,97 @@ nav li a{
 .fa-star.empty{
         color:#AEAEAE;
 }
+.section-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:  800px;
+    color:#e02167;
+}
+.section-bottom p{
+    margin-right: 5px;
+    
+}
+
+/* .flexable-area-2 styles */
+ 
+.flexable-area-2{
+   
+    display:flex;
+    margin-top: 20px;
+    margin-left: 190px;
+    width: 1020px;
+    height: 320px;
+    background: #fffdfd;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 20px 20px;
+     
+     
+}
+.half-width-2{
+    width: 582px;
+    height: 270px;
+    margin-left: 520px;
+    
+}
+.half-width-2 h1{
+    font-size: 35px;
+    line-height: 60px;
+    color: #463f3f;
+    
+}
+.half-width-2 p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px;
+    color: rgb(14, 11, 11);
+    text-align: justify;
+}
+
+.picture-width-2 img{
+    position: absolute;
+    width: 350px;
+    height: 330px;
+    margin-left: 20px;
+    
+}
+
+/* STYLES OF FOOTER */
+
+
+.footer{
+    position: relative;
+    top: 50px;
+    bottom: 0%;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(11, 10, 32);
+   
+     
+ 
+    
+  
+}
+.footer-part{
+    position: absolute;
+    line-height: 10px;
+    color: white;
+    text-align: center;
+    top: 10px;
+    left: 40%;
+}
+
+.footer-part i{
+    margin-right: 10px;
+}
+
+
+
+/*--------------------------------
+ Alhumdulliah Done 
+ --------------------------------*/
+
  
